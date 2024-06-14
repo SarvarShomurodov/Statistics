@@ -32,6 +32,16 @@ Route::get('/team', function () {
 Route::get('/about', function () {
     return view('client.about');
 });
+Route::get('/pragnoz', function () {
+    return view('client.prognoz');
+});
+
+Route::prefix('statistic')->group(function (){
+    Route::get('/index', function () {
+        return view('client.statistika.bozorxolati');
+    });
+});
+
 
 Route::prefix('admin')->group(function (){
     Route::resource('news', NewsController::class);

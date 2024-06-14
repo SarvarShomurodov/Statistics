@@ -10,6 +10,7 @@
             <li class="nav-item"><a class="nav-link" href="{{url('team')}}"><b>Mehnat bozori holati</b></a></li>
             <li class="nav-item"><a class="nav-link" href="{{url('faq')}}"><b>Talab yuqori bo`lgan kasblar</b></a></li>
             <li class="nav-item"><a class="nav-link" href="{{url('maosh')}}"><b>Yuqori oylik kasblar</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="{{url('pragnoz')}}"><b>Ishchi kuchi talabi prognozi</b></a></li>
             <li class="nav-item"><a class="nav-link" href="{{url('404')}}"><b>Karyera yoki malaka oshirish</b></a></li>
             <li class="nav-item"><a class="nav-link" href="team.html"><b>Maqolalar</b></a></li>
             <li class="nav-item"><a class="nav-link" href="{{'about'}}"><b>Biz haqimizda</b></a></li>
